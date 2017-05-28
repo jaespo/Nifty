@@ -142,13 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="myclass1.cpp" />
-    <ClCompile Include="myclass2.cpp" />
+    <ClCompile Include="Hello.cpp" />
+    <ClCompile Include="Greet.cpp" />
     <ClCompile Include="Nifty.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="myclass1.h" />
-    <ClInclude Include="myclass2.h" />
+    <ClInclude Include="Hello.h" />
+    <ClInclude Include="Greet.h" />
     <ClInclude Include="nifty.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

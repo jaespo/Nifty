@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NiftyStaticMember.cpp">
+    <ClCompile Include="StaticEx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Hello.cpp">

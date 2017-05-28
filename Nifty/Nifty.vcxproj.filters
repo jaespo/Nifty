@@ -18,10 +18,10 @@
     <ClCompile Include="Nifty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="myclass1.cpp">
+    <ClCompile Include="Hello.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="myclass2.cpp">
+    <ClCompile Include="Greet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +29,10 @@
     <ClInclude Include="nifty.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="myclass1.h">
+    <ClInclude Include="Hello.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="myclass2.h">
+    <ClInclude Include="Greet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

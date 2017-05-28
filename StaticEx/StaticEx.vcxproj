@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{606DDBF3-FE41-4B75-BE85-396F2CD3516B}</ProjectGuid>
+    <ProjectGuid>{003A8664-6E23-4D1E-8E77-805D6167AB82}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>NiftyStaticMembercpp</RootNamespace>
+    <RootNamespace>StaticEx</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>NiftyStaticMember</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,13 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hello.cpp" />
     <ClCompile Include="Greet.cpp" />
-    <ClCompile Include="NiftyStaticMember.cpp" />
+    <ClCompile Include="Hello.cpp" />
+    <ClCompile Include="StaticEx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Hello.h" />
     <ClInclude Include="Greet.h" />
+    <ClInclude Include="Hello.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

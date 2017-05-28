@@ -1,5 +1,7 @@
+#include "Greet.h"
 int main()
 {
-    return 0;
+	nsGreet::CGreet::Inst().IssueGreeting();
+	return 0;
 }
 
