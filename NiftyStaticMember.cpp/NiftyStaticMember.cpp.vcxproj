@@ -144,7 +144,7 @@
   <ItemGroup>
     <ClCompile Include="myclass1.cpp" />
     <ClCompile Include="myclass2.cpp" />
-    <ClCompile Include="NiftyStaticMember.cpp.cpp" />
+    <ClCompile Include="NiftyStaticMember.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myclass1.h" />
