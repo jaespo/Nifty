@@ -11,8 +11,9 @@ namespace nsGreet
 	public:
 		void Greet();
 	private:
-		NIFTY_STATIC_DCL(nsHello::CHello, mgHello)
+		NIFTY_STATIC_DCL(CGreet, nsHello::CHello, mgHello)
 	};
+	NIFTY_STATIC_IMPL( )
 }
 
 #endif
